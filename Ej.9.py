@@ -11,8 +11,6 @@ exp=(int)(input("Dime el exponente "))
 if exp<0:
     print("El exponente debe ser positivo")
     exp=(int)(input("Dime el exponente"))  
-if base !=float:
-    base=(int)(input("Dime la base"))
 for i in range(0,exp):
-     resultado=resultado*base  
+    resultado=resultado*base  
 print("Potencia=", resultado)
