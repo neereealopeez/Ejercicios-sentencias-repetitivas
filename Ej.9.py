@@ -13,4 +13,4 @@ if exp<0:
     exp=(int)(input("Dime el exponente"))  
 for i in range(0,exp):
     resultado=resultado*base  
-print("Potencia=", resultado)
+printb n("Potencia=", resultado)
