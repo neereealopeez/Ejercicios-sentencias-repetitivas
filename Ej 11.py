@@ -8,4 +8,8 @@ raiz=num**(1/2)
 
 for numer in range (0, raiz):
     if(num%numero==0):
-        
+        divisible= divisible + 1
+if (divisible==1):
+    print(num, "es primo")
+else:
+    print(num, "no es primo")
