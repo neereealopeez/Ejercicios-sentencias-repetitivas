@@ -11,7 +11,7 @@ while intentos !=10 and escrito!=numero:
     elif escrito>numero:
         print("El número introducido es mayor que el número secreto")
         
-    escrito=int(input("Número: "))
+    escrito=(int(input("Número: ")))
     intentos= intentos + 1
     print("Llevas", intentos, "intentos")  
 
