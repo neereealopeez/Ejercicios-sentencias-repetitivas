@@ -14,9 +14,9 @@ while limiteinf > limitesup:
 num = int(input("Dime un número: "))
 while num!=0:
     if num>limiteinf and num<limitesup: 
-        suma_dentro_intervalo += num
+        suma_dentro_intervalo =suma_dentro_intervalo + num
     else: 
-        cont_fuera_intervalo += 1
+        cont_fuera_intervalo = cont_fuera_intervalo + 1
         if num==limiteinf or num==limitesup:
             igual_limites = True
     num = int(input("Dime un número: "))
